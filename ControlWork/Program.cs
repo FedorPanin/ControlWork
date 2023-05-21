@@ -32,7 +32,7 @@ namespace ControlWork
             Console.WriteLine("Новый массив:");
             foreach (string element in finalArray)
             {
-                Console.WriteLine(element);
+                Console.Write(element + ',' + ' ');
             }
         }
     }
