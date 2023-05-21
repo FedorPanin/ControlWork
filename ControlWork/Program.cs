@@ -14,6 +14,8 @@ namespace ControlWork
             string input = Console.ReadLine();
             string[] array = input.Split(',');
 
+            string[] newArray = new string[array.Length];
+            int newIndex = 0;
         }
     }
 }
