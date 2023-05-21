@@ -25,6 +25,15 @@ namespace ControlWork
                     newIndex++;
                 }
             }
+
+            string[] finalArray = new string[newIndex];
+            Array.Copy(newArray, finalArray, newIndex);
+
+            Console.WriteLine("Новый массив:");
+            foreach (string element in finalArray)
+            {
+                Console.WriteLine(element);
+            }
         }
     }
 }
