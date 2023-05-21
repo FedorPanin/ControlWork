@@ -10,6 +10,10 @@ namespace ControlWork
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите элементы массива через запятую:");
+            string input = Console.ReadLine();
+            string[] array = input.Split(',');
+
         }
     }
 }
