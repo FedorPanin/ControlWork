@@ -16,6 +16,15 @@ namespace ControlWork
 
             string[] newArray = new string[array.Length];
             int newIndex = 0;
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i].Length <= 3)
+                {
+                    newArray[newIndex] = array[i];
+                    newIndex++;
+                }
+            }
         }
     }
 }
